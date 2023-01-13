@@ -1,0 +1,10 @@
+.hidden {
+	display:none;
+}
+
+span {
+	background-color: #E3E6E8;
+	border: 1px solid #E3E6E8;
+	border-radius: 4px;
+	padding: 0 1% 0 1%;
+}

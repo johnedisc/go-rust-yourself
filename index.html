@@ -25,7 +25,7 @@
 		
 		<div id="menuDiv">
 			<label for="menu">what is your favorite form type?</label>
-			<select id="form">
+			<select id="menu">
 				<option>radio buttons</option>
 				<option>pull-down menus</option>
 				<option>check boxes</option>
@@ -34,29 +34,29 @@
 
 		<div id="speedDiv">
 			<legend>what are your performance requirements?</legend>
-			<input type="radio" id="blazfast" name="speed" value="blazfast">
+			<input type="radio" name="speed" value="blazfast">
 			<label for="blazfast">blazingly fast</label>
-			<input type="radio" id="fast" name="speed" value="fast">
+			<input type="radio" name="speed" value="fast">
 			<label for="fast">fast</label>
-			<input type="radio" id="nocare" name="speed" value="nocare">
+			<input type="radio" name="speed" value="nocare">
 			<label for="nocare">dont care</label>
 		</div>
 
 		<div id="workTypeDiv">
 			<legend>what type of work will you do?</legend>
-			<input type="radio" id="frontEnd" name="workType" value="frontEnd">
+			<input type="radio" name="workType" value="frontEnd">
 			<label for="frontEnd">front end</label>
-			<input type="radio" id="server" name="workType" value="server">
+			<input type="radio" name="workType" value="server">
 			<label for="server">server-side</label>
-			<input type="radio" id="big" name="workType" value="big">
+			<input type="radio" name="workType" value="big">
 			<label for="big">big systems like an os</label>
 		</div>
 
 		<div id="painDiv">
-			<legend>do you love causing pain by learning incredibly hard new things?</legend>
-			<input type="radio" id="yes" name="pain" value="yes">
+			<legend>do you love causing yourself pain by learning incredibly hard new things?</legend>
+			<input type="radio" name="pain" value="yes">
 			<label for="yes">yes</label>
-			<input type="radio" id="no" name="pain" value="no">
+			<input type="radio" name="pain" value="no">
 			<label for="no">no</label>
 		</div>
 
@@ -66,10 +66,30 @@
 
 	</form>
 	<div id="printEl">
-		<h3></h3>
+		<h2></h2>
+		<div id="ts" class="hidden">
+			<h2>your future is with typescript</h2>
+			<img src="img/typescript.png" alt="typescript logo">
+		</div>
+		<div id="go" class="hidden">
+			<h2>your future is with go.</h2>
+			<img src="img/go.png" alt="go gopher">
+		</div>
+		<div id="rust" class="hidden">
+			<h2>you are a rustacean</h2>
+			<img src="img/rust.png" alt="go gopher">
+		</div>
 	</div>
 	<div id="footer">
-		nothing so far
+		<h3>new concepts learned today:</h3>
+		<ul>
+			<li>neovim: use <span>cit</span> to erase text from <em>inside</em> HTML TAGS and insert text</li>
+			<li>neovim: use <span>:s!^!//!</span> to comment out a line or all selected lines</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
 	</div>
 </body>
 </html>
