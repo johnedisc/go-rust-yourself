@@ -4,18 +4,72 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Go, Rust, or JS?</title>
+	<title>go rust yourself</title>
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
 	<script src="js/scripts.js"></script>
 </head>
 <body>
-	<form>
-		<label for="name">what is your name?</label>
-		<input id="name" type="text" name="txtBox" placeholder="say your name">
-		<label for="time">how many years have you been programming?</label>
-		<input id="time" type="text" name="txtBox" placeholder="give a number">
-		<label for="name">what is your name?</label>
-		<input id="name" type="text" name="txtBox" placeholder="say your name">
+	<div id="header">
+		nothing so far
+	</div>
+	<form id="form">
+		<div id="nameDiv">
+			<label for="name">what is your name?</label>
+			<input id="name" type="text" name="txtBox" placeholder="say your name">
+		</div>
+
+		<div id="timeDiv">
+			<label for="time">how many years have you been programming?</label>
+			<input id="time" type="number" name="txtBox" placeholder="give a number">
+		</div>
+		
+		<div id="menuDiv">
+			<label for="menu">what is your favorite form type?</label>
+			<select id="form">
+				<option>radio buttons</option>
+				<option>pull-down menus</option>
+				<option>check boxes</option>
+			</select>
+		</div>
+
+		<div id="speedDiv">
+			<legend>what are your performance requirements?</legend>
+			<input type="radio" id="blazfast" name="speed" value="blazfast">
+			<label for="blazfast">blazingly fast</label>
+			<input type="radio" id="fast" name="speed" value="fast">
+			<label for="fast">fast</label>
+			<input type="radio" id="nocare" name="speed" value="nocare">
+			<label for="nocare">dont care</label>
+		</div>
+
+		<div id="workTypeDiv">
+			<legend>what type of work will you do?</legend>
+			<input type="radio" id="frontEnd" name="workType" value="frontEnd">
+			<label for="frontEnd">front end</label>
+			<input type="radio" id="server" name="workType" value="server">
+			<label for="server">server-side</label>
+			<input type="radio" id="big" name="workType" value="big">
+			<label for="big">big systems like an os</label>
+		</div>
+
+		<div id="painDiv">
+			<legend>do you love causing pain by learning incredibly hard new things?</legend>
+			<input type="radio" id="yes" name="pain" value="yes">
+			<label for="yes">yes</label>
+			<input type="radio" id="no" name="pain" value="no">
+			<label for="no">no</label>
+		</div>
+
+		<div id="buttonDiv">
+			<button type="submit">get results</button>
+		</div>
+
 	</form>
+	<div id="printEl">
+		<h3></h3>
+	</div>
+	<div id="footer">
+		nothing so far
+	</div>
 </body>
 </html>
