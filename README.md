@@ -12,7 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+simple webpage to practice getting user data from forms, storing it in variables, performing conditional logic with branching, and printing the results to an html element on the page. several event handlers are used to facilitate getting data from the forms. 
 
 ## Setup/Installation Requirements
 
@@ -26,8 +26,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* this page poses a variable scope issue. because the variables are all related to the DOM, they cannot be delared globally without all being inside an event handler for the window object.
 
 ## License
 
