@@ -1,3 +1,7 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+}
+
 .hidden {
 	display:none;
 }
@@ -5,11 +9,14 @@
 div#header {
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
+	font-weight: 900;
+	font-size: 1.4em;
 
 }
 
 #header h1, #header h4 {
-	background-color: red;
+	padding: 0 2em 0 2em;
 	
 }
 
@@ -21,12 +28,47 @@ div#header {
 
 #bar1, #bar2, #bar3 {
 	background-color: black;
-	width: 3em;
-	height: .5em;
-	margin: .3em;
+	width: 2.5em;
+	height: .4em;
+	margin: .15em;
 	margin-right: 1em;
 	border-radius: .1em;
 	flex: 1 1 auto;
+}
+
+#formDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	height: 30em;
+	background-color: grey;
+	border-radius: .2em;
+	padding: 1em;
+}
+
+#form > * {
+	padding: .4em;
+}
+
+input {
+	font-family: 'Libre Baskerville', serif;
+	border-width: 0 0 2px 0;
+	border-style: inset;
+	border-radius: 1px;
+	padding: .4em 1em .4em 1em;
+}
+
+#printEl {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 span {
@@ -35,3 +77,5 @@ span {
 	border-radius: 4px;
 	padding: 0 1% 0 1%;
 }
+
+
