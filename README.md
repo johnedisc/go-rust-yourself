@@ -1,6 +1,6 @@
 # go-rust-yourself
 
-#### by johnedisc
+#### by [johnedisc](https://johnedisc.github.io/portfolio/)
 
 #### a short survey to help you select your next programming language
 
@@ -16,21 +16,19 @@ simple webpage to practice getting user data from forms, storing it in variables
 
 ## Setup/Installation Requirements
 
-* clone down the repository from github inside the directory of your choosing
+* clone down the [repository from github](https://github.com/johnedisc/go-rust-yourself.git) inside the directory of your choosing
 ```bash
 git clone https://github.com/johnedisc/go-rust-yourself.git
 ```
 * open index.html in your favorite browser
 * browse as you would any website
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
-
 ## Known Bugs
 
-* this page poses a variable scope issue. because the variables are all related to the DOM, they cannot be delared globally without all being inside an event handler for the window object.
+* no error handling so far to prevent the user from providing no selection on the radio buttons or leaving fields blank.
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+feel free to get in touch at [christopher(dot)johnedis(at)gmail(dot)com](christopher.johnedis@gmail.com)
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) 1.13.23 [johnedisc](https://johnedisc.github.io/portfolio/)
