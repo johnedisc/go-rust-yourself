@@ -10,11 +10,11 @@
 * css
 * javascript
 
-## Description
+## description
 
 simple webpage to practice getting user data from forms, storing it in variables, performing conditional logic with branching, and printing the results to an html element on the page. several event handlers are used to facilitate getting data from the forms. 
 
-## Setup/Installation Requirements
+## setup/installation requirements
 
 * clone down the [repository from github](https://github.com/johnedisc/go-rust-yourself.git) inside the directory of your choosing
 ```bash
@@ -23,11 +23,11 @@ git clone https://github.com/johnedisc/go-rust-yourself.git
 * open index.html in your favorite browser
 * browse as you would any website
 
-## Known Bugs
+## known Bugs
 
 * no error handling so far to prevent the user from providing no selection on the radio buttons or leaving fields blank.
 
-## License
+## license
 
 feel free to get in touch at [christopher(dot)johnedis(at)gmail(dot)com](christopher.johnedis@gmail.com)
 

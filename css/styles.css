@@ -2,6 +2,33 @@
 	display:none;
 }
 
+div#header {
+	display: flex;
+	align-items: center;
+
+}
+
+#header h1, #header h4 {
+	background-color: red;
+	
+}
+
+#menuBars {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#bar1, #bar2, #bar3 {
+	background-color: black;
+	width: 3em;
+	height: .5em;
+	margin: .3em;
+	margin-right: 1em;
+	border-radius: .1em;
+	flex: 1 1 auto;
+}
+
 span {
 	background-color: #E3E6E8;
 	border: 1px solid #E3E6E8;
