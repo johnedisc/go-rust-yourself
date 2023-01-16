@@ -14,98 +14,99 @@
 
 <body>
 
-	<div id="header">
-		<div class="container" id="menuBars">
-			<div id="bar1"></div>
-			<div id="bar2"></div>
-			<div id="bar2"></div>
+	<div class="container">
+
+		<div id="leftHeader">
+				<h4>find your next programming pursuit</h4>
 		</div>
-		<h1>go rust yourself</h1>
-	</div>
-	
-	<div id="formDiv">
-		<form id="form">
 
-			<h4>find your next programming pursuit</h4>
-			<div id="nameDiv">
-				<!--<label for="name">what is your name?</label>-->
-				<input id="name" type="text" name="txtBox" placeholder="say your name">
-			</div>
-
-			<div id="timeDiv">
-				<!--<label for="time">how many years have you been programming?</label>-->
-				<input id="time" type="number" name="txtBox" placeholder="how many years have you programmed?">
-			</div>
-			
-			<div id="menuDiv">
-				<label for="menu">what is your favorite form type?</label>
-				<select id="menu">
-					<option>radio buttons</option>
-					<option>pull-down menus</option>
-					<option>check boxes</option>
-				</select>
-			</div>
-
-			<div id="speedDiv">
-				<legend>what are your performance requirements?</legend>
-				<input type="radio" name="speed" value="blazfast">
-				<label for="blazfast">blazingly fast</label>
-				<input type="radio" name="speed" value="fast">
-				<label for="fast">fast</label>
-				<input type="radio" name="speed" value="nocare">
-				<label for="nocare">dont care</label>
-			</div>
-
-			<div id="workTypeDiv">
-				<legend>what type of work will you do?</legend>
-				<input type="radio" name="workType" value="frontEnd">
-				<label for="frontEnd">front end</label>
-				<input type="radio" name="workType" value="server">
-				<label for="server">server-side</label>
-				<input type="radio" name="workType" value="big">
-				<label for="big">big systems like an os</label>
-			</div>
-
-			<div id="painDiv">
-				<legend>do you love causing yourself pain by learning incredibly hard new things?</legend>
-				<input type="radio" name="pain" value="yes">
-				<label for="yes">yes</label>
-				<input type="radio" name="pain" value="no">
-				<label for="no">no</label>
-			</div>
-
-			<div id="buttonDiv">
-				<button type="submit">get results</button>
-			</div>
-
-		</form>
-	</div>
-	
-	<div id="printEl">
-		<h2></h2>
-		<div id="ts" class="hidden">
-			<h2>your future is with typescript</h2>
-			<img src="img/typescript.png" alt="typescript logo">
+		<div id="header">
+			<h1>go rust yourself</h1>
 		</div>
 		
-		<div id="go" class="hidden">
-			<h2>your future is with go.</h2>
-			<img src="img/go.png" alt="go gopher">
+		<div id="formDiv">
+			<form id="form">
+		
+				<div id="nameDiv">
+					<label for="name">what is your name?</label>
+					<input id="name" type="text" name="txtBox" placeholder="say your name">
+				</div>
+
+				<div id="timeDiv">
+					<label for="time">how many years have you been programming?</label>
+					<input id="time" type="number" name="txtBox" placeholder="how many years have you programmed?">
+				</div>
+				
+				<div id="menuDiv">
+					<label for="menu">what is your favorite form type?</label>
+					<select id="menu">
+						<option>radio buttons</option>
+						<option>pull-down menus</option>
+						<option>check boxes</option>
+					</select>
+				</div>
+
+				<div id="speedDiv">
+					<legend>what are your performance requirements?</legend>
+					<input type="radio" name="speed" value="blazfast">
+					<label for="blazfast">blazingly fast</label>
+					<input type="radio" name="speed" value="fast">
+					<label for="fast">fast</label>
+					<input type="radio" name="speed" value="nocare">
+					<label for="nocare">dont care</label>
+				</div>
+
+				<div id="workTypeDiv">
+					<legend>what type of work will you do?</legend>
+					<input type="radio" name="workType" value="frontEnd">
+					<label for="frontEnd">front end</label>
+					<input type="radio" name="workType" value="server">
+					<label for="server">server-side</label>
+					<input type="radio" name="workType" value="big">
+					<label for="big">big systems like an os</label>
+				</div>
+
+				<div id="painDiv">
+					<legend>do you love causing yourself pain by learning incredibly hard new things?</legend>
+					<input type="radio" name="pain" value="yes">
+					<label for="yes">yes</label>
+					<input type="radio" name="pain" value="no">
+					<label for="no">no</label>
+				</div>
+
+				<div id="buttonDiv">
+					<button type="submit">get results</button>
+				</div>
+
+			</form>
+		</div>
+		
+		<div id="printEl">
+			<h2></h2>
+			<div id="ts" class="hidden">
+				<h2>your future is with typescript</h2>
+				<img src="img/typescript.png" alt="typescript logo">
+			</div>
+			
+			<div id="go" class="hidden">
+				<h2>your future is with go.</h2>
+				<img src="img/go.png" alt="go gopher">
+			</div>
+
+			<div id="rust" class="hidden">
+				<h2>you are a rustacean</h2>
+				<img src="img/rust.png" alt="go gopher">
+			</div>
 		</div>
 
-		<div id="rust" class="hidden">
-			<h2>you are a rustacean</h2>
-			<img src="img/rust.png" alt="go gopher">
+		<div id="footer" class="hidden">
+			<h3>new concepts learned today:</h3>
+			<ul>
+				<li>neovim: use <span>cit</span> to erase text from <em>inside</em> HTML TAGS and insert text</li>
+				<li>neovim: use <span>:s!^!//!</span> to comment out a line or all selected lines</li>
+				<li>.querySelector() will take any attribute name like this: <span>.querySelector("[attr='value']")</li>
+			</ul>
 		</div>
-	</div>
-
-	<div id="footer" class="hidden">
-		<h3>new concepts learned today:</h3>
-		<ul>
-			<li>neovim: use <span>cit</span> to erase text from <em>inside</em> HTML TAGS and insert text</li>
-			<li>neovim: use <span>:s!^!//!</span> to comment out a line or all selected lines</li>
-			<li>.querySelector() will take any attribute name like this: <span>.querySelector("[attr='value']")</li>
-		</ul>
 	</div>
 
 </body>
