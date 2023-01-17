@@ -16,6 +16,7 @@ simple webpage to practice getting user data from forms, storing it in variables
 
 ## setup/installation requirements
 
+* visit the site [here](https://johnedisc.github.io/go-rust-yourself/)
 * clone down the [repository from github](https://github.com/johnedisc/go-rust-yourself.git) inside the directory of your choosing
 ```bash
 git clone https://github.com/johnedisc/go-rust-yourself.git
