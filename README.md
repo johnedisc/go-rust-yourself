@@ -29,15 +29,18 @@ git clone https://github.com/johnedisc/go-rust-yourself.git
 
 ## tech learned in making the site
 
-* vim: use ```bash
+* vim: use 
+```bash
 cit
 ```
  to erase text insidee HTML TAGS and insert text
-* vim: use ```bash
+* vim: use 
+```bash
 :s!^!//!
 ``` 
  to comment out a line or all selected lines
-*.querySelector() will take any attribute name like this: ```javascript
+*.querySelector() will take any attribute name like this: 
+```javascript
 .querySelector("[attr='value']")
 ```
 
