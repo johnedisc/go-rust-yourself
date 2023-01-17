@@ -1,0 +1,145 @@
+.hidden {
+	display: none;
+}
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	background-color: #CFB0B2;
+}
+
+.container {
+	height: 140vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2fr 1.5fr 3fr 1fr;
+	grid-gap: 5px;
+}
+
+.container > * {
+	border-radius:2px;
+}
+
+#leftHeader {
+	grid-column: 1/2;
+	grid-row: 1/3;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: end;
+	font-size: 1.4rem;
+	line-height: 2em;
+	padding: 1em;
+	min-width: 500px;
+	
+}
+
+#results {
+
+	grid-column: 1/2;
+	grid-row: 1/3;
+	background-color: black;
+	color: white;
+	font-size: 1.4rem;
+	line-height: 2em;
+	padding: 1em;
+	min-width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#leftHeader > * , #results > * {
+	font-size: .9rem;
+
+}
+
+#leftHeader img , #results img {
+	max-height: 250px;
+}
+
+#header {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	display: flex;
+	justify-content: flex-start;
+	align-items: end;
+	font-size: 1.5rem;
+	line-height: 2em;
+	padding: 0 0 0 1em;
+	background-color: #CFB0B2;
+	min-width: 500px;
+}
+	
+#formDiv {
+	grid-column: 2/3;
+	grid-row: 2/4;
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+	font-size: .8rem;
+	padding: 1em;
+}
+
+#form > * {
+	padding: 1em 0 1em 0;
+}
+
+#error {
+	color: red;
+}
+
+#color {
+	grid-column: 1/2;
+	grid-row: 3/4;
+	background-color: #CFB0B2;
+}
+
+#footer {
+	grid-column: 1/3;
+	grid-row: 4/5;
+	display: flex;
+	background-color: black;
+	font-size: 1.1rem;
+	color: white;
+	flex: space-between;
+	align-items: center;
+	padding: 0 10px 0 10px;
+}
+
+#footer h4 {
+	padding: 0 20px 0 20px;
+}
+
+a {
+	color: white;
+}
+
+ul {
+	flex: 1;
+}	
+
+span {
+	background-color: #E3E6E8;
+	border: 1px solid #E3E6E8;
+	border-radius: 4px;
+	padding: 0 1% 0 1%;
+}
+
+input, #menu, button, input[placeholder] {
+	font-family: 'Libre Baskerville', serif;
+	border-width: 0 0 2px 0;
+	border-color: white;
+	border-style: inset;
+	border-radius: 1px;
+	padding: .4em 1em .4em 1em;
+	background-color: black;
+	color: white;
+}
+
